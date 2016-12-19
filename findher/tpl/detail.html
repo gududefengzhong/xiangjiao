@@ -1,0 +1,27 @@
+<div ng-controller="pdetailCtrl">
+    <div class="detail-wrap">
+    <div>
+        <img  class="detail-img" ng-src="{{person.photo}}">
+    </div>
+        <table class="detail-table">
+            <tr>
+                <td>姓名:{{person.name}}</td>
+                <td>职业:{{person.job}}</td>
+            </tr>
+            <tr>
+                <td>年龄:{{person.age}}</td>
+                <td>身高:{{person.bodyheight}}cm</td>
+            </tr>
+            <tr>
+                <td>籍贯:{{person.from}}</td>
+                <td>体重:{{person.bodyweight}}kg</td>
+            </tr>
+            <tr><td>现居地:{{person.address}}</td></tr>
+        </table>
+        <p class="contact-p">联系方式:{{person.contact}}</p>
+        <p class="interests-p">爱好:{{person.interests}}</p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{person.description}}</p>
+    </div>
+
+</div>

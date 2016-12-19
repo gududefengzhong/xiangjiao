@@ -1,0 +1,186 @@
+a,body{
+    color: #333;
+}
+a{
+    text-decoration: none;
+    color: #3498DB;
+}
+ul{
+    list-style: none;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    height:0;
+    clear: both;
+}
+caption, div, iframe, img, nav, object,ul,li, span, table, tbody, td, tfoot, thead, tr ,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    margin:0;
+    padding:0;
+    min-width:1200px;
+    background-color: #f4f4f4;
+    font-size: 14px;
+    font-family: Helvetica,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+    line-height: 1.42857143;
+}
+body,html{
+    height:100%;
+}
+*,:after,:before {
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    color: #fff;
+    background-color: #333;
+    z-index: 1024;
+}
+.logo{
+    float: left;
+    width:150px;
+    margin-left:20px;
+}
+.navbar-logo{
+    float: left;
+    color: #ffffff;
+    font-size:24px;
+    line-height: 30px;
+    height:50px;
+    padding:10px 0 10px 3px;
+}
+.menu{
+    float: right;
+    margin-right:200px;
+    height:50px;
+}
+.menu>ul{
+    list-style:none;
+    float: right;
+    line-height:50px;
+}
+.menu>ul>li{
+    float: left;
+    display: block;
+    padding:0 15px;
+    
+}
+.menu>ul>li a{
+    color: #9d9d9d;
+    display: block;
+}
+.menu>ul>li a:hover,.menu>ul>li a.active{
+    color: #fff;
+}
+.navbar:after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    height:0;
+    clear: both;
+}
+.menu:after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    height:0;
+    clear: both;
+}
+.container{
+    width:1180px;
+    margin:0 auto;
+}
+
+
+/*底部版权说明*/
+#footer{
+    margin-top:100px;
+    background-color: #222;
+    color: #CCC;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 35px 0;
+}
+#footer a{
+    color: #CCC;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-right: 10px;
+}
+#footer .tip{
+    margin-top:10px;
+    color: #CCCCCC;
+}
+
+/*返回顶部*/
+#go-top{
+    position: fixed;
+    right:20px;
+    bottom:40px;
+    width:46px;
+    z-index:999;
+}
+#go-top a{
+    display: inline-block;
+    width:46px;
+    height:46px;
+    margin-bottom:10px;
+    background-image: url(../image/go-top.png);
+}
+#go-top .uc-2wm{
+    background-position:0 0;
+}
+#go-top .uc-2wm-pop{
+    position: absolute;
+    right:80px;
+    top:-160px;
+    width:240px;
+    height:240px;
+    background: url(../image/weixin.jpg) no-repeat 0 0 transparent;
+    background-size: contain;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+.dn{
+    display: none;
+}
+
+#go-top .go{
+    margin-bottom:0;
+    background-position: 0 -150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

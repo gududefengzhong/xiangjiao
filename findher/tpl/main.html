@@ -1,0 +1,18 @@
+<div ng-controller="peopleListCtrl" >
+    <span class="f-tab" ng-click="getData('female')">女神</span>
+    <span class="m-tab" ng-click="getData('male')">男神</span>
+
+    <div id="main-list" >
+        <div ng-repeat="(key,person) in people">
+
+            <a href="#/index/{{gender}}/{{key}}" >
+                <div class="person-card" >
+                    <img class="person-photo" ng-src="{{person.photomini}}">
+                    <div class="person-text">
+                        {{person.name}}
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

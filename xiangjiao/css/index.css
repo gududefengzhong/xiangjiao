@@ -1,0 +1,368 @@
+/*banner*/
+.slider{
+    width:100%;
+    height: 390px;
+    background-color: #AAD4C6;
+    overflow: hidden;
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top:100px;
+}
+.carousel{
+    width:500%;
+    left:0;
+    position: absolute;
+    height:100%;
+    list-style: none;
+    /*left:50%;*/
+    /*margin-left: -590px;*/
+}
+.carousel li{
+    width:20%;
+    display: block;
+    float: left;
+}
+.carousel li:nth-child(1){
+    /*background-image: url("http://7xwpy5.com1.z0.glb.clouddn.com/4f28fc6e761e1aa31119519faaeaf796.jpg");*/
+    background-size: 100% 100%;
+}
+.carousel li:nth-child(2){
+    /*background-image: url("http://7xwpy5.com1.z0.glb.clouddn.com/uploads/allimg/160724/2-160H4104A4262.jpg");*/
+    background-size: 100% 100%;
+}
+.carousel li:nth-child(3){
+    /*background-image: url("http://7xwpy5.com1.z0.glb.clouddn.com/7cdbe7b311e6cbdde09aa7a2979fbc3f.jpg");*/
+    background-size: 100% 100%;
+}.carousel li:nth-child(4){
+     /*background-image: url("http://7xwpy5.com1.z0.glb.clouddn.com/e8f86a241dcd2d4b29e28314002aaa2b.jpg");*/
+     background-size: 100% 100%;
+ }.carousel li:nth-child(5){
+      /*background-image: url("http://7xwpy5.com1.z0.glb.clouddn.com/6198781bb94ee8c31a156a82d38a1edb.jpg");*/
+      background-size: 100% 100%;
+  }
+.carousel .inner{
+    padding:160px 0 110px;
+}
+.carousel .inner h1{
+    font-size: 40px;
+    color: #fff;
+    line-height:52px;
+}
+.carousel .inner .btn{
+    display: inline-block;
+    margin:25px 0 0;
+    padding:9px 22px 7px;
+    clear: both;
+    color: #ffffff;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration: none;
+    border:2px solid rgba(255,255,255,.4);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.slider .dots{
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:20px;
+
+}
+.slider .dots li{
+    display: inline-block;
+    width:10px;
+    height:10px;
+    margin:0 4px;
+    text-indent: -999em;
+    border:2px solid #fff;
+    opacity: .4;
+    cursor: pointer;
+}
+.dots li.active{
+    background: #fff;
+    opacity:1;
+}
+.recommend{
+    width:100%;
+    margin:50px auto;
+}
+.recommend:after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    height:0;
+    clear: both;
+}
+.big-images{
+    float: left;
+    width:480px;
+    position: relative;
+    height:330px;
+    /*background: #e78989;*/
+}
+.big-images a{
+    display: block;
+    position: relative;
+    background:url("http://www.zizaifan.com/upload/201607/15/201607152301555869.jpg") no-repeat center center;
+    height:100%;
+    width:100%;
+    background-size: cover;
+}
+a .tags{
+    position:absolute;
+    top:0;
+    left:0;
+    display: block;
+    padding:2px 10px;
+    color: #fff;
+    font-size: 9px;
+    z-index:50;
+    background-color: #1997e1;
+}
+a .desc{
+    position: absolute;
+    bottom:0;
+    left:0;
+    margin:15px 0;
+    padding:2px 20px;
+    font-size:18px;
+    color: #ffffff;
+    width:100%;
+}
+.small-images .block{
+    width:220px;
+    float: left;
+    margin-bottom:10px;
+    margin-left:10px;
+    height:160px;
+}
+.small-images .wider{
+    width:450px;
+}
+.small-images .block a{
+    display: block;
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.small-images .block:nth-child(1) a {
+    background: url(http://www.zizaifan.com/upload/201607/09/201607091226196659.jpg) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.small-images .block:nth-child(2) a {
+    background: url(http://www.zizaifan.com/upload/201607/06/small_201607061945490145.jpg) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.small-images .block:nth-child(3) a {
+    background: url(http://www.zizaifan.com/upload/201606/22/small_201606222103033561.jpg) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.small-images .block:nth-child(4) a {
+    background: url(http://www.zizaifan.com/upload/201605/27/small_201605272209138182.jpg) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.small-images .block:nth-child(5) a {
+    background: url(http://www.zizaifan.com/upload/201604/25/small_201604252054037311.jpg) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.small-images .block a span{
+    font-size: 15px;
+    max-height: 40px;
+    line-height:20px;
+}
+
+/*main-content*/
+#main{
+    width:860px;
+    float: left;
+    background-color: #FFF;
+    padding:20px;
+}
+.index-list{
+    /*margin-top:-40px;*/
+}
+.index-list li{
+    margin-top:40px;
+}
+.index-img{
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height:200px;
+    position: relative;
+}
+.index-img img{
+    width:100%;
+    height:100%;
+}
+.index-text{
+    position: relative;
+    min-height:175px;
+    padding-bottom:25px;
+    margin-left:320px;
+}
+.index-text h1 {
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    max-height: 56px;
+    overflow: hidden;
+}
+.index-text h1 a{
+    color: #333;
+    font-weight:bold;
+}
+.index-con {
+    color: #999;
+    font-size: 12px;
+    margin: 6px 0;
+}
+.index-intro {
+    line-height: 24px;
+    max-height: 72px;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+.index-more a{
+    color: #3498db;
+}
+.index-like {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+}
+.index-like .time {
+    font-size: 12px;
+    color: #999;
+    float: left;
+}
+.index-like .post-ope {
+    float: right;
+    line-height: 18px;
+}
+.post-comment {
+    background-image: url();
+}
+.post-comment, .post-like {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    padding-left: 24px;
+    height: 18px;
+    margin-left: 10px;
+    color: #999;
+    font-size: 12px;
+    background-repeat: no-repeat;
+}
+.post-like{
+    background-image: url();
+}
+/*right-side*/
+
+#right-side{
+    float: right;
+    width:280px;
+}
+.post-right-item {
+    padding: 15px 20px 20px;
+    background-color: #FFF;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+}
+.post-right-title {
+    font-size: 14px;
+    color: #393939;
+    border-left: 4px solid #2689FF;
+    margin-left: -22px;
+    margin-bottom: 15px;
+    padding: 5px 0 5px 18px;
+    text-align: left;
+}
+.post-right-item .tags {
+    margin-left: -8px;
+    margin-top: -8px;
+}
+.post-right-item .tags a{
+    margin-left: 8px;
+    margin-top:8px;
+    display: inline-block;
+    padding:0 12px;
+    color: #3498db;
+    background-color: #F1F1F1;
+    font-size:12px;
+    font-family:Helvetica,Arial,sans-serif;
+    height:26px;
+    line-height:26px;
+    border-radius: 2px;
+}
+.hot-list li{
+    margin:0 -20px;
+}
+.hot-list li a {
+    display: block;
+    padding: 6px 20px 6px 40px;
+    position: relative;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+}
+.hot-list li a:hover{
+    background-color: #F1f1f1;
+}
+.hot-list li a span.hot-num {
+    color: #3498DB;
+    font-family: "Georgia";
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 4px;
+}
+/*关注我们,二维码*/
+.follow-title{
+    text-align: center;
+    font-size:14px;
+}
+.follow-2wm{
+    text-align: center;
+}
+
+/*捐赠小编*/
+.platform-type{
+    padding-left: 50px;
+}
+.platform-type a{
+    /*充满li*/
+    display: block;
+}
+.platform-type li{
+    width:64px;
+    float: left;
+    height:42px;
+    line-height:42px;
+    text-align: center;
+    border:1px solid #b59797;
+}
+
+ul.money-range li img{
+    width:224px;
+    height:240px;
+}
+
+li.active{
+    border-bottom:0;
+}
+li.show{
+    display: block;
+}

@@ -1,0 +1,171 @@
+/*main-content*/
+.container{
+    margin-top:100px;
+}
+#main{
+    width:860px;
+    float: left;
+    background-color: #FFF;
+    padding:20px;
+}
+.post-title{
+    font-size:18px;
+    color: #393939;
+    line-height:26px;
+    border-left:4px solid #2689FF;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-left:20px;
+    margin-left:-24px;
+}
+.sub-title{
+    font-size:12px;
+    height:18px;
+    line-height:18px;
+    color: #666;
+}
+.sub-title span{
+    margin-right:10px;
+}
+.pic-list{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.pic-list li img{
+    width:100%;
+}
+.short-intro dt{
+    float: left;
+    width:100px;
+}
+.short-intro{
+    margin-bottom:50px;
+}
+.brief-desc .desc{
+    text-indent:31px;
+    letter-spacing:2px;
+}
+.download-info{
+    margin-top:50px;
+}
+.download-info span{
+    margin-right:30px;
+}
+.download-info a{
+    display: inline-block;
+    width:100px;
+    height:30px;
+    line-height:30px;
+    background-color: #63B8FF;
+    color: #fff;
+    text-align: center;
+    margin-right:30px;
+}
+.download-info a:hover{
+    font-width:bold;
+    background-color: #63D8CC;
+}
+
+
+/*right-side*/
+
+#right-side{
+    float: right;
+    width:280px;
+}
+.post-right-item {
+    padding: 15px 20px 20px;
+    background-color: #FFF;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+}
+.post-right-title {
+    font-size: 14px;
+    color: #393939;
+    border-left: 4px solid #2689FF;
+    margin-left: -22px;
+    margin-bottom: 15px;
+    padding: 5px 0 5px 18px;
+    text-align: left;
+}
+.post-right-item .tags {
+    margin-left: -8px;
+    margin-top: -8px;
+}
+.post-right-item .tags a{
+    margin-left: 8px;
+    margin-top:8px;
+    display: inline-block;
+    padding:0 12px;
+    color: #3498db;
+    background-color: #F1F1F1;
+    font-size:12px;
+    font-family:Helvetica,Arial,sans-serif;
+    height:26px;
+    line-height:26px;
+    border-radius: 2px;
+}
+.post-right-item .tags a:hover{
+    background-color: #3498db;
+    color: #fff;
+}
+.hot-list li{
+     margin:0 -20px;
+ }
+.hot-list li a {
+    display: block;
+    padding: 6px 20px 6px 40px;
+    position: relative;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+}
+.hot-list li a:hover{
+    background-color: #F1f1f1;
+}
+.hot-list li a span.hot-num {
+    color: #3498DB;
+    font-family: "Georgia";
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 4px;
+}
+/*关注我们,二维码*/
+.follow-title{
+    text-align: center;
+    font-size:14px;
+}
+.follow-2wm{
+    text-align: center;
+}
+
+/*捐赠小编*/
+.platform-type{
+    padding-left: 50px;
+}
+.platform-type a{
+    /*充满li*/
+    display: block;
+}
+.platform-type li{
+    width:64px;
+    float: left;
+    height:42px;
+    line-height:42px;
+    text-align: center;
+    border:1px solid #b59797;
+}
+
+ul.money-range li img{
+    width:224px;
+    height:240px;
+}
+
+li.active{
+    border-bottom:0;
+}
+li.show{
+    display: block;
+}

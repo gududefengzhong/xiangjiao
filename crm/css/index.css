@@ -1,0 +1,100 @@
+
+body,p,h1,h2,h3,h4,h5,div,table,ul,ol{
+    margin:0;
+    padding:0;
+}
+*,:after,:before{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+}
+body{
+    background-color: #fff;
+    color: #333;
+    font-size:14px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    height:0;
+    overflow: hidden;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #428bca;
+}
+ul{
+    list-style: none;
+}
+
+/*container*/
+.container.main{
+    margin-top:96px;
+    width:1180px;
+}
+
+/*sidebar*/
+.sidebar{
+    width:20%;
+    float: left;
+}
+.sidebar ul{
+    width:150px;
+    text-align: left;
+}
+.sidebar ul li{
+    border:1px solid #ddd;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.sidebar ul li.active a{
+    color: #fff;
+    background-color: #0088cc;
+}
+.sidebar ul li a{
+    display: block;
+    padding:8px 16px;
+}
+
+
+/*content*/
+.content{
+    width:76%;
+    float: right;
+}
+
+.search-form{
+    margin-bottom:50px;
+    margin-top:20px;
+}
+.search-form label,.search-form input{
+    margin-right:10px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td,
+.table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    text-align: center;
+    vertical-align: middle;
+}
+.edit-form{
+    margin-top:50px;
+}
+.pagination{
+    float: right;
+}
+#footer{
+    margin-top: 100px;
+    background-color: #222;
+    color: #CCC;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 35px 0;
+}
+
+
+
+
